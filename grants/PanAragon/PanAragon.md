@@ -38,6 +38,7 @@ Given that Aragon hasannounced its research towards the implementation of the pr
 
 
 Our team has already been focusing on the research of real-world DAO equivalents identified by the team and mostly channeling investigation efforts into [chamas as precursors to DAOs](https://docs.google.com/presentation/d/16P9pAqSryjJpk37R-CtXDEw-0pNtYpuBei2cmfIR2E8/edit#slide=id.g35c0209681_0_0).
+
 Our team sees the Aragon SDK as a toolkit to super-charge traditional co-op/mutual structures and enable them to connect and exchange value regardless of geography and dependence on any banking system, offering a degree of resilience/protection/stabilisation against any forthcoming financial crisis. 
 
 Our research has already confirmed that community-based informal savings organisations, still existing and active across many emerging markets, have been occurring  for the last 6-7 centuries.The most prominent example are in Kenya, South Africa, and diaspora-based informal savings circles have been identified in the US and Europe. Collectively, they capture over US$100 billion in savings and over US$16 billion annually in diaspora remittances. 
@@ -79,15 +80,18 @@ Please note that this timeline is indicative and we hope to refine it in collabo
 
 **1st month: Architecture and tech design.**
 Development of the tech specification for L2-Voting chain. L2-Voting solution will be based on [OCEAN model](https://medium.com/the-adex-blog/introducing-ocean-alternative-layer-2-scalability-7d24bb22ebe4) (Off-Chain Event AggregatioN) and will use state channels to bridge Aragon tokens to L2-Voting solution. 
+
 Deliverables: 
 * Architecture and design documents
 * Test environment set up
 
 **2nd month - Development of offchain-voting and decision making - Using state channels and native Substrate smart contracts**
+
 Deliverables: 
 * Off-chain voting prototype (results of voting are not transmitted to Ethereum network). 
 
 **3rd month - Development of Oracle development for voting results transferring from L2-Voting solution to Ethereum Aragon DAO.** 
+
 Deliverables: 
 * Layer-2 solution PoC
   
