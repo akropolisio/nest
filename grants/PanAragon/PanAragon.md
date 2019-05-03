@@ -2,31 +2,31 @@
 
 ## Abstract
 
-We are working on a product dedicated to the needs of the informal economy. We are committed to building a generalized solution for real-world DAO equivalents regardless of their geographical location or development stage.
+Our team is committed to the improvement of Aragon Core by focusing on two major goals: gradual scalability towards a futuredelivery of the Arachain via R&D efforts based on Polkadot and Substrate, and network monetization strategies and  theimplementation of such. 
 
-It is designed to:
-
-* enable anybody regardless of geography to quickly set up, operate and grow informal autonomous financial organisations, e.g. digital co-ops, guilds, mutuals
-
-* enables a previously impossible interoperable scalable network between them and external third parties, whereby value can be exchanged freely in a trust-minimised way (e.g. 
-* co-invest, lend/borrow, trade)
-
-* reduces instances of fraud and misuse of funds
-
-Given the time restrictions for a full FLOCK proposal and the kind feedback that the Aragon community have taken the time to provide to us at short notice, we are adjusting our proposal to NEST. In this proposal, we remove the elements deemed non-essential and focus on the part of the original proposal that received the most positive support so far: a layer-2 solution for voting on Polkadot as a core technology buildout for Aragon.
+Our proposal, in a nutshell:
+* Aragon Core technology development in collaboration with existing contributors/ flock teams where required; building tech tools for the Aragon ecosystem with a focus on scalability.
+* Aragon Product Lab: Product-Market-Fit and Monetisation research 
 
 
-## Deliverables
 
-### Layer-2 Governance solution
+## Nest Deliverables (3 months)
 
-An organisation, incorporated or informal, has to make a multitude decisions. AragonOS is a technically complex product and it consumes a large amount of gas, 150,000+ units of gas based on our analysis of Aragon smart contracts. In this regard, the cost of on-chain governance which is at the heart of Aragon becomes an impediment to ability of Aragon-based organisations to grow. 
+**Deliverable**: PoC of a Substrate-based Layer-2 scalability solution for AragonOS, on Ethereum.
 
-Therefore, to address the cost of on-chain governance as an impeding factor to growth of the overall network, we propose to create a layer-2 solution adapted for on-chain voting, similar to Plasma. To provide an additional layer of security, we propose to implement it on Substrate. Subsequently, we aim to deliver parachain working with Aragon contracts on Ethereum, with the parachain’s native smart contract API accepting signed transactions for voting messages. 
+**Motivation**: An organisation, incorporated or informal, has to make a multitude of decisions. AragonOS is a technically complex product and it consumes a large amount of gas, 150,000+ units of gas based on our analysis of Aragon smart contracts. In this regard, the cost of on-chain governance which is at the heart of Aragon becomes an obstacleto the growth of Aragon-based organisations. 
 
-An additional layer of security enabled by the Polkadot protocol ensures that votes cannot be manipulated and voting system cannot be easily attacked. When the voting ends (voting rules will be described in the Polkadot’s contracts), the results will be synchronized with the Ethereum network.
+Therefore, to address the costs of on-chain governance as an impeding factor of growth of the overall network, we propose to create a layer-2 solution adapted for on-chain voting, similar to Plasma. To provide an additional layer of security, we propose to implement it on Substrate. Subsequently, we aim to deliver a working “parachain” with Aragon contracts on Ethereum, featuring the parachain’s native smart contract API accepting signed transactions for voting messages. 
 
-Given that Aragon announced its research towards the implementation of the protocol on Polkadot, we can build the Arachain adapted to the protocol, andfast-track the overall R&D efforts and roadmap. Our team has already created their own chain using Substrate and is acting as a validator for Polkadot testnets. Polkadot Telemetry details  are here: 
+The additional layer of security enabled by the parachain’s consensus prevents vote manipulation and attacks to the voting system.When the voting periods end (the voting rules will be described in the Substrate contracts), the results will be synchronized with the Ethereum network.
+
+## The Future - Flock (6 months) 
+
+After completing the aforementioned work, we intend to apply for a Flock grant to help the AragonOne team (or any of the existing Aragon contributing teams) ship the Arachain on Substrate, subsequently working on Layer-1 scaling. 
+
+**Deliverable**: working testnet
+
+Given that Aragon hasannounced its research towards the implementation of the protocol on Polkadot, we believe our team is qualified toactively contribute to building the Arachain adapted to the protocol, and fast-track the overall R&D efforts and roadmap. Our team has already created their own chain using Substrate and is acting as a validator for Polkadot testnets. The Polkadot Telemetry details are here: 
 
 * https://telemetry.polkadot.io/#/Akropolis
 
@@ -34,13 +34,20 @@ Given that Aragon announced its research towards the implementation of the proto
 
 * https://telemetry.polkadot.io/#/Alexander
 
+## Product-Market-Fit R&D: Real World Use Cases
 
 
-### Product-Market-Fit R&D: Real World Use Cases
+Our team has already been focusing on the research of real-world DAO equivalents identified by the team and mostly channeling investigation efforts into [chamas as precursors to DAOs](https://docs.google.com/presentation/d/16P9pAqSryjJpk37R-CtXDEw-0pNtYpuBei2cmfIR2E8/edit#slide=id.g35c0209681_0_0).
+Our team sees the Aragon SDK as a toolkit to super-charge traditional co-op/mutual structures and enable them to connect and exchange value regardless of geography and dependence on any banking system, offering a degree of resilience/protection/stabilisation against any forthcoming financial crisis. 
 
-We are already focusing our research on real-world DAO equivalents identified by the team during the extensive research into [chamas as precursors to DAOs](https://docs.google.com/presentation/d/16P9pAqSryjJpk37R-CtXDEw-0pNtYpuBei2cmfIR2E8/edit#slide=id.g35c0209681_0_0) - and see the Aragon SDK as a toolkit to super-charge traditional co-op/mutual structures and enable them to save, transact and grow at scale safely, without dependency on banks, financial institutions such a state pension funds which are a de facto Ponzi scheme, or nation-states themselves for that matter.
+Our research has already confirmed that community-based informal savings organisations, still existing and active across many emerging markets, have been occurring  for the last 6-7 centuries.The most prominent example are in Kenya, South Africa, and diaspora-based informal savings circles have been identified in the US and Europe. Collectively, they capture over US$100 billion in savings and over US$16 billion annually in diaspora remittances. 
 
-Our scope is catalysed by chamas but not restricted to them - we are committed to building a generalized solution for real-world DAO equivalents regardless of their geographical location or development stage.
+Another prominent examples are mutual credit collectives like Sardex, in Sardinia, Italy,  created as a local response to the 2007 credit crisis and having organically grown to over US$45mn turnover through a bank-independent network  in only one region in the country. 
+
+We want to focus on exploring the ways how this real-world DAOs can use Aragon platform and how this could help to monetise the Aragon platform and support the ANT. 
+
+**Our scope is catalysed by Chamas but not restricted to them** - we are committed to building a generalized solution for real-world DAO equivalents regardless of their geographical location or development stage.
+
 
 
 ## Requirements
@@ -66,30 +73,29 @@ We would like to request the standard $150,000 grant allocation paid in DAI to c
 
 ## Development timeline
 
-This timeline is an estimation after the deployment of the funds for the Nest is confirmed. It is based on deliverables/milestones per month to keep our goals clear and stages well-defined.
+**Deliverable**: PoC of  a Substrate-based Layer-2 scalability solution for AragonOS (L2-Voting), on Ethereum.
 
-* 1st month - Working on a Proof of Concept. Results: 
-Development of the tech specification for AraDot Chain.
+Please note that this timeline is indicative and we hope to refine it in collaboration with the Aragon Nest decision-makers to ensure optimal fit and timely delivery.
 
-The AraDot will be based on OCEAN model (Off-Chain Event AggregatioN) and will use state channels to bridge Aragon tokens to AraDot. 
+**1st month: Architecture and tech design.**
+Development of the tech specification for L2-Voting chain. L2-Voting solution will be based on [OCEAN model](https://medium.com/the-adex-blog/introducing-ocean-alternative-layer-2-scalability-7d24bb22ebe4) (Off-Chain Event AggregatioN) and will use state channels to bridge Aragon tokens to L2-Voting solution. 
+Deliverables: 
+* Architecture and design documents
+* Test environment set up
 
-* 2nd month -system of offchain-voting and decision making - Using state channels and native Substrate smart contracts
+**2nd month - Development of offchain-voting and decision making - Using state channels and native Substrate smart contracts**
+Deliverables: 
+* Off-chain voting prototype (results of voting are not transmitted to Ethereum network). 
 
-* 3rd month -Oracle development for voting results transferring from AraDot to Aragon DAO. 
+**3rd month - Development of Oracle development for voting results transferring from L2-Voting solution to Ethereum Aragon DAO.** 
+Deliverables: 
+* Layer-2 solution PoC
   
-* 4th month- Adding the ability to work with any DAO
+[optional, subject to funding] 4th month- Adding the ability to work with any DAO.
+
 At the 1st stage (1-3 months) we take a test list of DAOs, that can work with our solution. 
 In the next stage (this one mentioned above, month 4 - we "open" our solution to all DAOs. 
 
-* 5th month - Refactoring, stabilization, launch of the public TestNet network
-PoC full preparation within budget specified. 
-The product can be packaged as a standalone box version in the future, but this is planned for stage 2 - within the framework of the Aragon Flock Grant.
-
-### Future plans: 
-
-*  6-8 month - Development of a proof-of-concept DSL (domain-specific language) that makes it possible to create a different voting logic within AraDot.
-
-* 9-12 month - Stabilization and launch of the public Mainnet. 
 
 
 ## Team 
