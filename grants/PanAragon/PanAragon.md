@@ -53,18 +53,13 @@ We want to focus on exploring the ways how this real-world DAOs can use Aragon p
 
 ## Requirements
 
-* Blog access on blog.aragon.org
-
-* Unrestricted use of the Aragon trademark
-
 * Publish access to aragonpm.eth
 
 * Access to Aragon servers and cloud infrastructure
 
 * Access to Aragon DNS and ENS domains
 
-* Admin/moderator access on aragon.chat, forum.aragon.org, and /r/AragonProject
-
+* Unrestricted use of the Aragon trademark
 
 ## Grant Size
 
